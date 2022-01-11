@@ -1,0 +1,249 @@
+        body {
+            padding: 0px;
+            margin: 0px;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        }
+        
+        .home-div {
+            position: fixed;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            background: url("../images/backg.jpg") no-repeat center top;
+            background-size: cover;
+        }
+        
+        .home-div .inner-div {
+            width: 80%;
+            height: auto;
+            position: fixed;
+            z-index: 2;
+            margin-top: 70px;
+            margin-left: 10%;
+            text-align: center;
+        }
+        
+        .home-div .inner-div .left-div {
+            width: 50%;
+            background: rgba(204, 204, 204, .7);
+            display: inline-block;
+            vertical-align: top;
+            height: 530px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .home-div .inner-div .left-div h1 {
+            font-size: 50px;
+            text-align: center;
+            padding: 0px;
+            margin-top: 20%;
+            color: #000406;
+        }
+        
+        .home-div .inner-div .left-div hr {
+            width: 60%;
+            margin: auto;
+            color: #CB3D0D;
+        }
+        
+        .home-div .inner-div .left-div .logo-div {
+            margin-left: 25%;
+            margin-top: 50px;
+            border-radius: 30px;
+            background-color: #FFF;
+            width: 250px;
+        }
+        
+        .home-div .inner-div .right-div {
+            width: 45%;
+            background: rgba(203, 61, 13, .7);
+            display: inline-block;
+            vertical-align: top;
+            height: 530px;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+        }
+        
+        .home-div .inner-div .right-div .logo-div {
+            float: left;
+            margin: 20px;
+        }
+        
+        .home-div .inner-div .right-div .login,
+        .home-div .inner-div .right-div .reset {
+            text-align: left;
+            margin: auto;
+            width: 80%;
+            height: 336px;
+        }
+        
+        .home-div .inner-div .right-div .login {
+            display: block;
+        }
+        
+        .home-div .inner-div .right-div .reset {
+            display: none;
+        }
+        
+        .home-div .inner-div .right-div .login h2 {
+            font-size: 24px;
+            color: #FFF;
+            margin: 0px;
+            padding: 0px 10px 10px 0px;
+        }
+        
+        .home-div .inner-div .right-div .login h2 hr {
+            width: 200px;
+            color: rgba(255, 255, 255, .6);
+            float: left;
+        }
+        
+        .home-div .inner-div .right-div .login .title {
+            font-size: 15px;
+            color: #FFF;
+            margin-bottom: 10px;
+        }
+        
+        .home-div .inner-div .right-div .login input {
+            width: 85%;
+            height: 30px;
+            padding: 10px 5% 10px 10%;
+            border-radius: 5px;
+            font-size: 15px;
+            margin-bottom: 10px;
+            background: #FFF;
+            border: none;
+        }
+        
+        .home-div .inner-div .right-div .login button {
+            width: 180px;
+            height: 50px;
+            color: #FFF;
+            font-size: 15px;
+            transition: all .4s ease-in;
+            cursor: pointer;
+            background: #242424;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .home-div .inner-div .right-div .login button:hover {
+            opacity: .7;
+        }
+        
+        .home-div .inner-div .right-div .login .btn-div {
+            color: #FFF;
+            padding: 10px;
+            font-size: 12px;
+            height: 15px;
+            line-height: 15px;
+            background: rgba(204, 102, 0, .5);
+            border: rgba(255, 255, 255, .5) 1px solid;
+            margin-bottom: 5px;
+        }
+        
+        .home-div .inner-div .right-div .login span {
+            color: #FFF;
+            cursor: pointer;
+        }
+        
+        .home-div .inner-div .right-div .footer-div {
+            height: 50px;
+            background: #242424;
+            padding: 20px;
+            color: #FFF;
+            line-height: 25px;
+        }
+        
+        .home-div .inner-div .right-div .footer-div span {
+            font-size: 12px;
+            color: rgba(255, 255, 255, .6);
+        }
+        
+        @media all and (max-width:1000px) {
+            .home-div .inner-div .left-div .logo-div {
+                margin-left: 20%;
+            }
+        }
+        
+        @media all and (max-width:970px) {
+            .home-div .inner-div .right-div .login h2 {
+                font-size: 20px;
+            }
+        }
+        
+        @media all and (max-width:850px) {
+            .home-div .inner-div .right-div .login .btn-div {
+                overflow: hidden;
+                height: 10px;
+                line-height: 20px;
+            }
+        }
+        
+        @media all and (max-width:830px) {
+            .home-div .inner-div .left-div {
+                display: none;
+            }
+            .home-div .inner-div .right-div {
+                width: 100%;
+            }
+        }
+        
+        @media all and (max-width:375px) {
+            .home-div .inner-div .right-div .login h2 {
+                font-size: 15px;
+            }
+            .home-div .inner-div .right-div .footer-div {
+                line-height: 20px;
+            }
+        }
+        
+        .registration-success-div {
+            width: 80%;
+            min-height: 200px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        
+        .registration-success-div .success-div {
+            min-width: 300px;
+            margin: 30px auto;
+            vertical-align: top;
+            display: inline-block;
+        }
+        
+        .registration-success-div .success-div .btn-div {
+            border: #E4FBC3 1px solid;
+            width: 90%;
+            min-height: 30px;
+            color: #111100;
+            font-size: 13px;
+            line-height: 40px;
+            padding: 0px 10px 0px 10px;
+            margin-bottom: 10px;
+            transition: all .4s ease-in;
+            cursor: auto;
+            background: #e7df94;
+        }
+        
+        .registration-success-div .success-div button {
+            width: 120px;
+            height: 50px;
+            color: #FFF;
+            font-size: 15px;
+            line-height: 50px;
+            transition: all .4s ease-in;
+            cursor: pointer;
+            text-align: center;
+            background: #CB3D0D;
+            margin-bottom: 20px;
+            border: none;
+        }
+        
+        @media all and (max-width:400px) {
+            .registration-success-div .success-div {
+                min-width: 250px;
+            }
+        }
